@@ -1,5 +1,0 @@
-package com.training.firstServlet.model.beans;
-
-public class User {
-
-}

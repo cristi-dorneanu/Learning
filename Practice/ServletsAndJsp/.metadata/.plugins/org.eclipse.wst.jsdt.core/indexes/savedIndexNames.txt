@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+/home/dorni/Learning/Projects/ServletsAndJsp/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1793946623.index
-4094535956.index
-36067134.index
-2938938703.index
-1720374220.index
-3589897876.index

@@ -1,0 +1,5 @@
+package com.learning.dataStructures.algorithms.search;
+
+public interface BaseSearchAlgorithm {
+
+}

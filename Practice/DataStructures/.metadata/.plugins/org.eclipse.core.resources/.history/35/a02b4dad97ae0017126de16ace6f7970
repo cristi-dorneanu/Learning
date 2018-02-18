@@ -1,0 +1,9 @@
+package com.learning.dataStructures.algorithms.sorting;
+
+public class InsertionSortAlgorithm<T extends Comparable> implements BaseSortingAlgorithm<T>{
+
+	public T[] sort(T[] input) {
+		return null;
+	}
+
+}

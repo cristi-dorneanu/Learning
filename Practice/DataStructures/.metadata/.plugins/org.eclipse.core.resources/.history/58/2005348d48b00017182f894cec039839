@@ -1,0 +1,5 @@
+package com.learning.dataStructures.algorithms.search;
+
+public class BinarySearchAlgorithm<T extends Comparable> implements BaseSearchAlgorithm{
+
+}

@@ -1,0 +1,11 @@
+package com.learning.dataStructures.algorithms.search;
+
+public class BinarySearchAlgorithm<T extends Comparable> implements BaseSearchAlgorithm{
+
+	@Override
+	public long search(Object[] input) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

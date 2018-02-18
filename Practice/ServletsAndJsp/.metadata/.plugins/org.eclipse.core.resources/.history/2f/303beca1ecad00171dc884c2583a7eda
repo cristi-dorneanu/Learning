@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+</head>
+<body>
+	<h1>This is my first Servlet</h1>
+	
+	<form action="Sayhello" method="post">
+		<input type="hidden" name="action" value="hello">
+		<label for="name">Enter name</label>
+		<input name="name" type="text"><br>
+		
+		<input type="submit" value="Say Hello" id="sayHello">
+	</form>
+</body>
+</html>

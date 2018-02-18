@@ -1,0 +1,14 @@
+package com.learning.dataStructures.algorithms.search;
+
+public interface BaseSearchAlgorithm<T> {
+	public T[] search(T[] input);
+	public default void print(T[] input)
+	{
+		for(T element : input)
+		{
+			System.out.print(element + " ");
+		}
+		
+		System.out.println("");
+	}
+}

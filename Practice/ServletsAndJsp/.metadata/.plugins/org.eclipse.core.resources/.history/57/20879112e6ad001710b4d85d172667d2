@@ -1,0 +1,7 @@
+package com.training.firstServlet.model.beans;
+
+import java.io.Serializable;
+
+public class User implements Serializable{
+	
+}

@@ -15,8 +15,18 @@
   	<servlet-class>com.training.firstServlet.controller.HelloServlet</servlet-class>
   </servlet>
   
+  <servlet>
+  	<servlet-name>JoinNowServlet</servlet-name>
+  	<servlet-class>com.training.firstServlet.controller.JoinNowServlet</servlet-class>
+  </servlet>
+  
   <servlet-mapping>
   	<servlet-name>HelloServlet</servlet-name>
   	<url-pattern>/SayHello</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>JoinNowServlet</servlet-name>
+  	<url-pattern>/JoinNow</url-pattern>
   </servlet-mapping>
 </web-app>

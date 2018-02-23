@@ -26,14 +26,9 @@ public class HelloServlet extends HttpServlet {
 		
 		if(action == null || action.equals("back"))
 		{
-			url = "/index.html";
-		} else if(action.equals("hello"))
+			url = "/JoinNow";
+		} else if(action.equals("toHello"))
 		{
-			String name = request.getParameter("name");
-			
-			User user = new User(name);
-			
-			request.setAttribute("user", user);
 			url = "/SayHello.jsp";
 		}
 		

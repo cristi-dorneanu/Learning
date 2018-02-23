@@ -5,14 +5,22 @@
 <title>Hello</title>
 </head>
 <body>
-	<h1>This is my first Servlet</h1>
-	
-	<form action="SayHello" method="post">
-		<input type="hidden" name="action" value="hello">
-		<label for="name">Enter name</label>
-		<input name="name" type="text"><br>
+	<h1>Join page</h1>
+	<br>To join enter the following
+
+	<form action="JoinNow" method="post">
+		<input type="hidden" name="action" value="join">
 		
-		<input type="submit" value="Say Hello" id="sayHello">
+		<label for="email">Enter email</label>
+		<input name="email" type="text"><br>
+		
+		<label for="firstName">Enter first Name</label>
+		<input name="firstName" type="text" />
+		
+		<label for="lastName">Enter last name</label>
+		<input name="lastName" type="text" />
+		
+		<input type="submit" value="Join Now" name="join">
 	</form>
 </body>
 </html>
